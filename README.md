@@ -47,7 +47,13 @@ To get a local copy up and running follow these simple example steps.
 git clone https://github.com/shinkuan/SD-Webui-auto-Wallpaper.git
 ```
 
-2. Run the `autoWallpaper.py`
+2. Make sure you edit the Stable Diffusion path [here](https://github.com/shinkuan/SD-Webui-auto-Wallpaper/blob/38a547de93a0c2bcdbdebc1ff05e031dfcc5be3e/autoWallpaper.py#L13).
+
+3. Edit [Stable Diffusion URL](https://github.com/shinkuan/SD-Webui-auto-Wallpaper/blob/38a547de93a0c2bcdbdebc1ff05e031dfcc5be3e/autoWallpaper.py#L19) if needed.
+
+4. Change [payload](https://github.com/shinkuan/SD-Webui-auto-Wallpaper/blob/38a547de93a0c2bcdbdebc1ff05e031dfcc5be3e/autoWallpaper.py#L20) to customize the way SD generate image.
+  
+5. Run the `autoWallpaper.py`
 
 ```sh
 python autoWallpaper.py
